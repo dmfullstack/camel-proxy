@@ -1,3 +1,18 @@
+// camel-proxy
+
+apply plugin: 'war'
+
+apply plugin: 'idea'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    runtime group: 'org.springframework', name: 'spring-core', version: '3.2.5.RELEASE'
+    runtime group: 'org.springframework', name: 'spring-web', version: '3.2.5.RELEASE'
+}
+
 task help() {
     doFirst {
         println """========================
