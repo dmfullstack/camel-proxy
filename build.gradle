@@ -1,0 +1,9 @@
+task help() {
+    doFirst {
+        println """========================
+Project: gradle-skeleton
+Version: 0.0
+========================
+"""
+    }
+}

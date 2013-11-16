@@ -1,0 +1,9 @@
+make a particular request on http://localhost:8080 and
+get response from ...
+
+demonstrate client endpoint and marshalling
+
+skeleton gradle project
+displays a "help/version" banner
+
+
