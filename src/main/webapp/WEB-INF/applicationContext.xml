@@ -1,12 +1,30 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:camel="http://camel.apache.org/schema/spring"
        xmlns:cxf="http://camel.apache.org/schema/cxf"
-       xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="
        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
-       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
        http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd
        http://camel.apache.org/schema/cxf http://camel.apache.org/schema/cxf/camel-cxf.xsd">
+
+    <cxf:cxfEndpoint id="stockquote"
+        address="http://www.webservicex.net/stockquote.asmx"
+        wsdlURL="classpath:stockquote.wsdl"
+        endpointName="s:StockQuoteSoap"
+        serviceName="s:StockQuote"
+        xmlns:s="http://www.webserviceX.NET/">
+        <cxf:properties>
+            <entry key="dataFormat" value="MESSAGE"/>
+        </cxf:properties>
+    </cxf:cxfEndpoint>
+
+    <!-- N.B. file:../temp is relative to Tomcat home directory -->
+    <camelContext xmlns="http://camel.apache.org/schema/spring" trace="false">
+        <route id="my_Sample_Camel_Route_with_CXF">
+            <from uri="file:../temp?noop=true"/>
+            <log loggingLevel="INFO" message="&gt;&gt;&gt; ${body}"/>
+            <to uri="cxf:bean:stockquote"/>
+            <log loggingLevel="INFO" message="&gt;&gt;&gt; ${body}"/>
+        </route>
+    </camelContext>
 
 </beans>

@@ -1,4 +1,4 @@
-// camel-proxy
+description = "camel-proxy"
 
 apply plugin: 'war'
 
@@ -11,14 +11,19 @@ repositories {
 dependencies {
     runtime group: 'org.springframework', name: 'spring-core', version: '3.2.5.RELEASE'
     runtime group: 'org.springframework', name: 'spring-web', version: '3.2.5.RELEASE'
+
+    runtime group: 'org.apache.camel', name: 'camel-core', version: '2.12.1'
+    runtime group: 'org.apache.camel', name: 'camel-cxf', version: '2.12.1'
+
+    runtime group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.+'
 }
 
 task help() {
     doFirst {
-        println """========================
-Project: gradle-skeleton
-Version: 0.0
-========================
+        println """====================
+Project: camel-proxy
+Version: 0.1
+====================
 """
     }
 }
