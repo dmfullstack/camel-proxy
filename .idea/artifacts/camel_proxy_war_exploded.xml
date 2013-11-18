@@ -8,46 +8,44 @@
           <element id="module-output" name="camel-proxy" />
         </element>
         <element id="directory" name="lib">
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/aopalliance/aopalliance/1.0/jar/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/commons-logging/commons-logging/1.1.1/jar/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.springframework/spring-aop/3.2.5.RELEASE/jar/4c6b62278fda29944bce501505f4098020fe389d/spring-aop-3.2.5.RELEASE.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.springframework/spring-beans/3.2.5.RELEASE/jar/262e05c6d10299eaa97f177451f372db19daae15/spring-beans-3.2.5.RELEASE.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.springframework/spring-context/3.2.5.RELEASE/jar/49e15abaaf9a6f6b7e3f1df8fdcb4b55f1a6ee70/spring-context-3.2.5.RELEASE.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.springframework/spring-core/3.2.5.RELEASE/jar/6746563c9814d8e1578a2c6e85da1bdbc69921cb/spring-core-3.2.5.RELEASE.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.springframework/spring-expression/3.2.5.RELEASE/jar/2c24bdd3a6c8d6bf90efbd3b6f9e9441a57f8c7a/spring-expression-3.2.5.RELEASE.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.springframework/spring-web/3.2.5.RELEASE/jar/b22389b536143f55ed230bc1199a6cd0b8639f4/spring-web-3.2.5.RELEASE.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/asm/asm/3.3.1/jar/1d5f20b4ea675e6fab6ab79f1cd60ec268ddc015/asm-3.3.1.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.apache.camel/camel-core/2.12.1/bundle/9b6e65d4b8669cc6a5a369266ad6f9c5875305d2/camel-core-2.12.1.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.apache.camel/camel-cxf/2.12.1/bundle/378e56024e673091811400b5d98e98a6300398d5/camel-cxf-2.12.1.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.apache.camel/camel-cxf-transport/2.12.1/bundle/f955cbd31b1251232931567f10d2308ae0b2dda8/camel-cxf-transport-2.12.1.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.apache.camel/camel-spring/2.12.1/bundle/b0e66a0a4ae2363c14c8d7ad5fa6b21279e1124c/camel-spring-2.12.1.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.apache.cxf/cxf-api/2.7.6/jar/3b27b6f6075d1cc117848a64b653debabf2809de/cxf-api-2.7.6.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.apache.cxf/cxf-rt-bindings-soap/2.7.6/jar/bfef46267197abd35c8dd6defd055f28596567cd/cxf-rt-bindings-soap-2.7.6.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.apache.cxf/cxf-rt-bindings-xml/2.7.6/jar/5558510c03362061052720d64e5ff853b98911a3/cxf-rt-bindings-xml-2.7.6.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.apache.cxf/cxf-rt-core/2.7.6/jar/6bf93c0ce77eb9cc46a5e7f32c89da856d923068/cxf-rt-core-2.7.6.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.apache.cxf/cxf-rt-databinding-jaxb/2.7.6/jar/ed185fb33f905718698be835643a42535c3fec3d/cxf-rt-databinding-jaxb-2.7.6.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.apache.cxf/cxf-rt-features-clustering/2.7.6/jar/13ac149b9dda8e3528ce2cc2b5e6ea0f0e316c7b/cxf-rt-features-clustering-2.7.6.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.apache.cxf/cxf-rt-frontend-jaxrs/2.7.6/jar/f10adf2668a4684c030d2b8207cfff8d9afc00e5/cxf-rt-frontend-jaxrs-2.7.6.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.apache.cxf/cxf-rt-frontend-jaxws/2.7.6/jar/1ec950f734561511c966d024159aefac9fb93980/cxf-rt-frontend-jaxws-2.7.6.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.apache.cxf/cxf-rt-frontend-simple/2.7.6/jar/71b66ba21ebdc50f40dfb8e955d9fe51e1a200b7/cxf-rt-frontend-simple-2.7.6.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.apache.cxf/cxf-rt-transports-http/2.7.6/jar/1c286f28df379203621a26598bc36f6b12f63565/cxf-rt-transports-http-2.7.6.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.apache.cxf/cxf-rt-ws-addr/2.7.6/jar/8aa8134a1cb875e5f1bad26e74b819c7cb0af06c/cxf-rt-ws-addr-2.7.6.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.apache.cxf/cxf-rt-ws-policy/2.7.6/jar/4adebe5584bc1efb5e585bd641638d33d2841796/cxf-rt-ws-policy-2.7.6.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.apache.geronimo.specs/geronimo-javamail_1.4_spec/1.7.1/bundle/43ad4090b1a07a11c82ac40c01fc4e2fbad20013/geronimo-javamail_1.4_spec-1.7.1.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/javax.ws.rs/javax.ws.rs-api/2.0-m10/jar/74705b1b0c448f88cff1a46f431b70b23588e8f4/javax.ws.rs-api-2.0-m10.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/com.sun.xml.bind/jaxb-impl/2.2.6/jar/62bed5d6f40049a00c48a402c3511f02eedd1c11/jaxb-impl-2.2.6.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.apache.neethi/neethi/3.0.2/bundle/129d23d29de183eafe787b9566c2d0bbb8eab47a/neethi-3.0.2.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.slf4j/slf4j-api/1.6.6/jar/ce53b0a0e2cfbb27e8a59d38f79a18a5c6a8d2b0/slf4j-api-1.6.6.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.springframework/spring-tx/3.2.4.RELEASE/jar/6da00a9bc5ee808211dafc2f642129476a0d63cb/spring-tx-3.2.4.RELEASE.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.codehaus.woodstox/stax2-api/3.1.1/jar/466eab062e9d1a3ce2c4631b6d09b5e5c0cbd1b/stax2-api-3.1.1.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.codehaus.woodstox/woodstox-core-asl/4.2.0/jar/7a3784c65cfa5c0553f31d000b43346feb1f4ee3/woodstox-core-asl-4.2.0.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/wsdl4j/wsdl4j/1.6.3/jar/6d106a6845a3d3477a1560008479312888e94f2f/wsdl4j-1.6.3.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/xml-resolver/xml-resolver/1.2/jar/3d0f97750b3a03e0971831566067754ba4bfd68c/xml-resolver-1.2.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.apache.ws.xmlschema/xmlschema-core/2.0.3/bundle/4058ca983dd275363bd454393e1889c2ba978c74/xmlschema-core-2.0.3.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/log4j/log4j/1.2.17/bundle/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.slf4j/slf4j-api/1.7.5/jar/6b262da268f8ad9eff941b25503a9198f0a0ac93/slf4j-api-1.7.5.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-23/filestore/org.slf4j/slf4j-log4j12/1.7.5/jar/6edffc576ce104ec769d954618764f39f0f0f10d/slf4j-log4j12-1.7.5.jar" />
-          <element id="library" level="project" name="CXF Runtime" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-ws-policy/2.7.6/jar/4adebe5584bc1efb5e585bd641638d33d2841796/cxf-rt-ws-policy-2.7.6.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.springframework/spring-core/3.2.5.RELEASE/jar/6746563c9814d8e1578a2c6e85da1bdbc69921cb/spring-core-3.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.springframework/spring-web/3.2.5.RELEASE/jar/b22389b536143f55ed230bc1199a6cd0b8639f4/spring-web-3.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.camel/camel-core/2.12.1/bundle/9b6e65d4b8669cc6a5a369266ad6f9c5875305d2/camel-core-2.12.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.camel/camel-cxf/2.12.1/bundle/378e56024e673091811400b5d98e98a6300398d5/camel-cxf-2.12.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.slf4j/slf4j-log4j12/1.7.5/jar/6edffc576ce104ec769d954618764f39f0f0f10d/slf4j-log4j12-1.7.5.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/commons-logging/commons-logging/1.1.1/jar/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/aopalliance/aopalliance/1.0/jar/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.springframework/spring-beans/3.2.5.RELEASE/jar/262e05c6d10299eaa97f177451f372db19daae15/spring-beans-3.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.springframework/spring-aop/3.2.5.RELEASE/jar/4c6b62278fda29944bce501505f4098020fe389d/spring-aop-3.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.springframework/spring-expression/3.2.5.RELEASE/jar/2c24bdd3a6c8d6bf90efbd3b6f9e9441a57f8c7a/spring-expression-3.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.springframework/spring-context/3.2.5.RELEASE/jar/49e15abaaf9a6f6b7e3f1df8fdcb4b55f1a6ee70/spring-context-3.2.5.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.sun.xml.bind/jaxb-impl/2.2.6/jar/62bed5d6f40049a00c48a402c3511f02eedd1c11/jaxb-impl-2.2.6.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.slf4j/slf4j-api/1.7.5/jar/6b262da268f8ad9eff941b25503a9198f0a0ac93/slf4j-api-1.7.5.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.springframework/spring-tx/3.2.4.RELEASE/jar/6da00a9bc5ee808211dafc2f642129476a0d63cb/spring-tx-3.2.4.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.camel/camel-spring/2.12.1/bundle/b0e66a0a4ae2363c14c8d7ad5fa6b21279e1124c/camel-spring-2.12.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.ws.xmlschema/xmlschema-core/2.0.3/bundle/4058ca983dd275363bd454393e1889c2ba978c74/xmlschema-core-2.0.3.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.geronimo.specs/geronimo-javamail_1.4_spec/1.7.1/bundle/43ad4090b1a07a11c82ac40c01fc4e2fbad20013/geronimo-javamail_1.4_spec-1.7.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.codehaus.woodstox/stax2-api/3.1.1/jar/466eab062e9d1a3ce2c4631b6d09b5e5c0cbd1b/stax2-api-3.1.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.codehaus.woodstox/woodstox-core-asl/4.2.0/jar/7a3784c65cfa5c0553f31d000b43346feb1f4ee3/woodstox-core-asl-4.2.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/wsdl4j/wsdl4j/1.6.3/jar/6d106a6845a3d3477a1560008479312888e94f2f/wsdl4j-1.6.3.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-api/2.7.6/jar/3b27b6f6075d1cc117848a64b653debabf2809de/cxf-api-2.7.6.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-core/2.7.6/jar/6bf93c0ce77eb9cc46a5e7f32c89da856d923068/cxf-rt-core-2.7.6.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-databinding-jaxb/2.7.6/jar/ed185fb33f905718698be835643a42535c3fec3d/cxf-rt-databinding-jaxb-2.7.6.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-bindings-soap/2.7.6/jar/bfef46267197abd35c8dd6defd055f28596567cd/cxf-rt-bindings-soap-2.7.6.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.camel/camel-cxf-transport/2.12.1/bundle/f955cbd31b1251232931567f10d2308ae0b2dda8/camel-cxf-transport-2.12.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/javax.ws.rs/javax.ws.rs-api/2.0-m10/jar/74705b1b0c448f88cff1a46f431b70b23588e8f4/javax.ws.rs-api-2.0-m10.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-bindings-xml/2.7.6/jar/5558510c03362061052720d64e5ff853b98911a3/cxf-rt-bindings-xml-2.7.6.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-transports-http/2.7.6/jar/1c286f28df379203621a26598bc36f6b12f63565/cxf-rt-transports-http-2.7.6.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-frontend-jaxrs/2.7.6/jar/f10adf2668a4684c030d2b8207cfff8d9afc00e5/cxf-rt-frontend-jaxrs-2.7.6.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/xml-resolver/xml-resolver/1.2/jar/3d0f97750b3a03e0971831566067754ba4bfd68c/xml-resolver-1.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/asm/asm/3.3.1/jar/1d5f20b4ea675e6fab6ab79f1cd60ec268ddc015/asm-3.3.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-frontend-simple/2.7.6/jar/71b66ba21ebdc50f40dfb8e955d9fe51e1a200b7/cxf-rt-frontend-simple-2.7.6.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.neethi/neethi/3.0.2/bundle/129d23d29de183eafe787b9566c2d0bbb8eab47a/neethi-3.0.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-ws-addr/2.7.6/jar/8aa8134a1cb875e5f1bad26e74b819c7cb0af06c/cxf-rt-ws-addr-2.7.6.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-frontend-jaxws/2.7.6/jar/1ec950f734561511c966d024159aefac9fb93980/cxf-rt-frontend-jaxws-2.7.6.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-features-clustering/2.7.6/jar/13ac149b9dda8e3528ce2cc2b5e6ea0f0e316c7b/cxf-rt-features-clustering-2.7.6.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/log4j/log4j/1.2.17/bundle/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar" />
         </element>
       </element>
     </root>

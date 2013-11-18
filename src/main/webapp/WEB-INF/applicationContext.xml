@@ -8,7 +8,7 @@
 
     <cxf:cxfEndpoint id="stockquote"
         address="http://www.webservicex.net/stockquote.asmx"
-        wsdlURL="classpath:stockquote.wsdl"
+        wsdlURL="WEB-INF/wsdl/stockquote.wsdl"
         endpointName="s:StockQuoteSoap"
         serviceName="s:StockQuote"
         xmlns:s="http://www.webserviceX.NET/">
