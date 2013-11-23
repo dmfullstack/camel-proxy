@@ -20,12 +20,12 @@ public class MyProcess implements org.apache.camel.Processor {
     public void process(Exchange exchange) throws Exception {
 //        logger.info(" cxf:bean:releasePOEndpoint processing exchange in camel");
 
-        BindingOperationInfo boi = (BindingOperationInfo)
-                exchange.getProperty(BindingOperationInfo.class.toString());
-        if (boi != null) {
-            logger.info("boi.isUnwrapped" + boi.isUnwrapped());
-            logger.info("boi: " + boi);
-        }
+//        BindingOperationInfo boi = (BindingOperationInfo)
+//                exchange.getProperty(BindingOperationInfo.class.toString());
+//        if (boi != null) {
+//            logger.info("boi.isUnwrapped" + boi.isUnwrapped());
+//            logger.info("boi: " + boi);
+//        }
         if (exchange != null){
             Object symbol = exchange.getIn().getBody();
             logger.info("symbol: " + symbol);

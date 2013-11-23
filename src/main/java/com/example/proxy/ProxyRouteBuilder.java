@@ -40,9 +40,9 @@ public class ProxyRouteBuilder extends RouteBuilder {
 //        from("file:../temp?noop=true").
         from("cxfrs:bean:rsStockQuoteServer").
                 to("log:input1").
-                process(proxyProcessor).
+                to("bean:requestProcessor").
                 to("log:input2").
-                to(endpoint).
+                to("cxf:bean:wsStockQuoteClient").
                 to("log:input3");
     }
 }

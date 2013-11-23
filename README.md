@@ -1,11 +1,17 @@
 Camel Proxy
 ===========
-Version: 0.1
-
 make a particular request on http://localhost:8080 and
 get response from a SOAP endpoint
 
 demonstrate client endpoint and marshalling, SOAP/JSON conversion
 
+Version: 0.2
+------------
+Get POJO SOAP request working. Wire up a rest server endpoint. Start
+refactoring to use Java DSL route and Spring endpoint configuration.
+
+
+Version: 0.1
+------------
 Uses the http://www.webservicex.net stock quote service and raw SOAP.
 

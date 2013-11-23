@@ -6,13 +6,13 @@
        http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd
        http://camel.apache.org/schema/cxf http://camel.apache.org/schema/cxf/camel-cxf.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://cxf.apache.org/jaxrs http://cxf.apache.org/schemas/jaxrs.xsd">
 
+    <!-- springframework will scan these packages for @Component, etc. -->
     <context:component-scan base-package="com.example"/>
 
     <bean id="jsonProvider" class="com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider"/>
 
 
-    <cxf:rsServer id="rsStockQuoteServer" address="/"
-                  serviceClass="com.example.proxy.LocalService">
+    <cxf:rsServer id="rsStockQuoteServer" address="/" serviceClass="com.example.proxy.LocalService">
         <cxf:providers>
             <ref bean="jsonProvider"/>
         </cxf:providers>
@@ -30,13 +30,16 @@
         </cxf:properties>
     </cxf:cxfEndpoint>
 
+    <cxf:cxfEndpoint id="wsStockQuoteClient"
+         serviceClass="net.webservicex.StockQuoteSoap"
+         address="http://www.webservicex.net/stockquote.asmx"/>
+
     <!--serviceClass="net.webservicex.GetQuote"-->
 
+    <bean id="requestProcessor" class="com.example.proxy.MyProcess"/>
 
-    <bean id="myconvertor" class="com.example.proxy.FakeConvertor"/>
-    <bean id="myprocess" class="com.example.proxy.MyProcess"/>
 
-     <!--N.B. file:../temp is relative to Tomcat home directory-->
+    <!--N.B. file:../temp is relative to Tomcat home directory-->
     <!--<camelContext xmlns="http://camel.apache.org/schema/spring" trace="false">-->
         <!--<route id="my_Sample_Camel_Route_with_CXF">-->
             <!--<from uri="file:../temp?noop=true"/>-->
@@ -49,7 +52,7 @@
         <!--</route>-->
     <!--</camelContext>-->
 
-    <camelContext id="camel5" xmlns="http://camel.apache.org/schema/spring">
+    <camelContext id="camel-proxy" xmlns="http://camel.apache.org/schema/spring">
         <routeBuilder ref="proxyBuilder" />
     </camelContext>
 

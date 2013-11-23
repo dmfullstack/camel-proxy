@@ -46,6 +46,26 @@
           <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-frontend-jaxws/2.7.6/jar/1ec950f734561511c966d024159aefac9fb93980/cxf-rt-frontend-jaxws-2.7.6.jar" />
           <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-features-clustering/2.7.6/jar/13ac149b9dda8e3528ce2cc2b5e6ea0f0e316c7b/cxf-rt-features-clustering-2.7.6.jar" />
           <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/log4j/log4j/1.2.17/bundle/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/commons-collections/commons-collections/3.2.1/jar/761ea405b9b37ced573d2df0d1e3a4e0f9edc668/commons-collections-3.2.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/commons-lang/commons-lang/2.4/jar/16313e02a793435009f1e458fa4af5d879f6fb11/commons-lang-2.4.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-api/2.7.7/jar/bee4c6bc34465dada4dcc852f7aa7022cea13ae2/cxf-api-2.7.7.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-bindings-soap/2.7.7/jar/270a025ce9876ed02a22c87b9802a2cca3fbc081/cxf-rt-bindings-soap-2.7.7.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-core/2.7.7/jar/54f6d10b44587eb79d4995198eecc052903bd3cb/cxf-rt-core-2.7.7.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-rt-databinding-jaxb/2.7.7/jar/99966646c6218b89a91295646a151419f34f05f6/cxf-rt-databinding-jaxb-2.7.7.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-tools-common/2.7.7/jar/c6e45d810d5b6441b0191ec11dddde6934717878/cxf-tools-common-2.7.7.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-tools-validator/2.7.7/jar/7c13facb629e4a5afda51075cdcde2d1c9b40809/cxf-tools-validator-2.7.7.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-tools-wsdlto-core/2.7.7/jar/2de8d324d2b09dcf741fee6b5b6d2cabe90eb47f/cxf-tools-wsdlto-core-2.7.7.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-tools-wsdlto-databinding-jaxb/2.7.7/jar/c695daf10dfed330dfd26b6374da20d36b887ff8/cxf-tools-wsdlto-databinding-jaxb-2.7.7.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.cxf/cxf-tools-wsdlto-frontend-jaxws/2.7.7/jar/3292b6e5b9d21cafeb87b67d0e93eb2765c9fe7d/cxf-tools-wsdlto-frontend-jaxws-2.7.7.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.sun.xml.bind/jaxb-impl/2.1.13/jar/7c1ea3e298d0a32fafcebcb734e77990598f7720/jaxb-impl-2.1.13.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/com.sun.xml.bind/jaxb-xjc/2.1.13/jar/a953200fed20f683c09e8f419c2babb1d89d82a/jaxb-xjc-2.1.13.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.apache.velocity/velocity/1.7/jar/2ceb567b8f3f21118ecdec129fe1271dbc09aa7a/velocity-1.7.jar" />
+          <element id="library" level="project" name="jackson-jaxrs-base-2.2.3" />
+          <element id="library" level="project" name="jackson-jaxrs-json-provider-2.2.3" />
+          <element id="library" level="project" name="jackson-core-2.2.3" />
+          <element id="library" level="project" name="jackson-annotations-2.2.3" />
+          <element id="library" level="project" name="jackson-module-jaxb-annotations-2.2.3" />
+          <element id="library" level="project" name="jackson-databind-2.2.3" />
         </element>
       </element>
     </root>
