@@ -3,19 +3,51 @@ description = "camel-proxy"
 apply plugin: 'war'
 
 apply plugin: 'idea'
+apply plugin: 'jetty'
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    runtime group: 'org.springframework', name: 'spring-core', version: '3.2.5.RELEASE'
-    runtime group: 'org.springframework', name: 'spring-web', version: '3.2.5.RELEASE'
+    compile group: 'org.springframework', name: 'spring-core', version: '3.2.5.RELEASE'
+    compile group: 'org.springframework', name: 'spring-web', version: '3.2.5.RELEASE'
 
-    runtime group: 'org.apache.camel', name: 'camel-core', version: '2.12.1'
-    runtime group: 'org.apache.camel', name: 'camel-cxf', version: '2.12.1'
+    compile group: 'org.apache.camel', name: 'camel-core', version: '2.12.1'
+    compile group: 'org.apache.camel', name: 'camel-cxf', version: '2.12.1'
+    compile group: 'org.apache.camel', name: 'camel-cxf-transport', version: '2.12.1'
 
-    runtime group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.+'
+    compile group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.+'
+
+    compile group: 'org.apache.cxf', name: 'cxf', version: '2.7.7'
+    compile group: 'org.apache.cxf', name: 'cxf-tools-wsdlto-databinding-jaxb', version: '2.7.7'
+    compile group: 'org.apache.cxf', name: 'cxf-tools-wsdlto-frontend-jaxws', version: '2.7.7'
+
+    compile "com.fasterxml.jackson.core:jackson-core:2.2.3"
+    compile "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.2.3"
+}
+
+task wsdl2Java() {
+//    inputs.files wsdlDir.listFiles()
+//    outputs.files generatedWsdlDir
+    doLast {
+//        wsdlsToGenerate.each { wsdlFile ->
+//            createJavaFromWsdl(wsdlFile, generatedWsdlDir)
+        createJavaFromWsdl(['src/main/webapp/WEB-INF/wsdl/PaymentAuthorizationService-V4-0.wsdl'], 'src/main/generated')
+
+//        }
+    }
+}
+
+def createJavaFromWsdl(arguments, destinationDir) {
+    arguments.add(arguments.size - 1, '-d')
+    arguments.add(arguments.size - 1, destinationDir)
+    println "Processing " + arguments[arguments.size - 1]
+    javaexec {
+        main = 'org.apache.cxf.tools.wsdlto.WSDLToJava'
+        classpath = configurations.runtime
+        args arguments
+    }
 }
 
 task help() {

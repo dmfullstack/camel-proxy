@@ -1,30 +1,58 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:cxf="http://camel.apache.org/schema/cxf"
-       xsi:schemaLocation="
-       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       xmlns:cxf="http://camel.apache.org/schema/cxf" xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:jaxrs="http://cxf.apache.org/jaxrs"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
        http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd
-       http://camel.apache.org/schema/cxf http://camel.apache.org/schema/cxf/camel-cxf.xsd">
+       http://camel.apache.org/schema/cxf http://camel.apache.org/schema/cxf/camel-cxf.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://cxf.apache.org/jaxrs http://cxf.apache.org/schemas/jaxrs.xsd">
+
+    <context:component-scan base-package="com.example"/>
+
+    <bean id="jsonProvider" class="com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider"/>
+
+
+    <cxf:rsServer id="rsStockQuoteServer" address="/"
+                  serviceClass="com.example.proxy.LocalService">
+        <cxf:providers>
+            <ref bean="jsonProvider"/>
+        </cxf:providers>
+    </cxf:rsServer>
 
     <cxf:cxfEndpoint id="stockquote"
         address="http://www.webservicex.net/stockquote.asmx"
         wsdlURL="WEB-INF/wsdl/stockquote.wsdl"
+        serviceClass="net.webservicex.StockQuoteSoap"
         endpointName="s:StockQuoteSoap"
         serviceName="s:StockQuote"
         xmlns:s="http://www.webserviceX.NET/">
         <cxf:properties>
-            <entry key="dataFormat" value="MESSAGE"/>
+            <entry key="dataFormat" value="POJO"/>
         </cxf:properties>
     </cxf:cxfEndpoint>
 
-    <!-- N.B. file:../temp is relative to Tomcat home directory -->
-    <camelContext xmlns="http://camel.apache.org/schema/spring" trace="false">
-        <route id="my_Sample_Camel_Route_with_CXF">
-            <from uri="file:../temp?noop=true"/>
-            <log loggingLevel="INFO" message="&gt;&gt;&gt; ${body}"/>
-            <to uri="cxf:bean:stockquote"/>
-            <log loggingLevel="INFO" message="&gt;&gt;&gt; ${body}"/>
-        </route>
+    <!--serviceClass="net.webservicex.GetQuote"-->
+
+
+    <bean id="myconvertor" class="com.example.proxy.FakeConvertor"/>
+    <bean id="myprocess" class="com.example.proxy.MyProcess"/>
+
+     <!--N.B. file:../temp is relative to Tomcat home directory-->
+    <!--<camelContext xmlns="http://camel.apache.org/schema/spring" trace="false">-->
+        <!--<route id="my_Sample_Camel_Route_with_CXF">-->
+            <!--<from uri="file:../temp?noop=true"/>-->
+            <!--<log loggingLevel="INFO" message="&gt;&gt;&gt; ${body}"/>-->
+            <!--&lt;!&ndash;<to uri="bean:myconvertor"/>&ndash;&gt;-->
+            <!--<process ref="myprocess"/>-->
+            <!--<log loggingLevel="INFO" message="&gt;&gt;&gt; ${body}"/>-->
+            <!--<to uri="cxf:bean:stockquote"/>-->
+            <!--<log loggingLevel="INFO" message="&gt;&gt;&gt; ${body}"/>-->
+        <!--</route>-->
+    <!--</camelContext>-->
+
+    <camelContext id="camel5" xmlns="http://camel.apache.org/schema/spring">
+        <routeBuilder ref="proxyBuilder" />
     </camelContext>
+
+    <bean id="proxyBuilder" class="com.example.proxy.ProxyRouteBuilder"/>
 
 </beans>
