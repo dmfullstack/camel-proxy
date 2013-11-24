@@ -1,3 +1,20 @@
+Version 0.2
+-----------
+There are now unit and component tests, but functional tests are still manual.
+
+Scenario: In ISO mode, the service should return a canned response without making an external request
+Given the service is launched with system property spring.profiles.active=iso
+When request /symbol/AAPL
+Then response should be GPS (the stub's canned response)
+Then response should be immediate and no external request was made
+
+Scenario: In PROD mode, the service should return a real response by making an external request
+Given the service is launched with system property spring.profiles.active=prod
+When request /symbol/AAPL
+Then response should be AAPL  with current data
+When I request /symbol/GPS
+Then the response should be GPS with current data
+
 
 Version 0.1
 -----------

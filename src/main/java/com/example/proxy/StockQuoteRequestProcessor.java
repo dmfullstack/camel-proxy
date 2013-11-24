@@ -9,8 +9,8 @@ import org.apache.log4j.Logger;
  * In order to invoke the ws client, the out message of the exchange
  * needs the correct headers. The parameter also needs to be added.
  */
-public class MyProcess implements org.apache.camel.Processor {
-    private static Logger logger = Logger.getLogger(MyProcess.class);
+public class StockQuoteRequestProcessor implements org.apache.camel.Processor {
+    private static Logger logger = Logger.getLogger(StockQuoteRequestProcessor.class);
 
     @Override
     public void process(Exchange exchange) throws Exception {

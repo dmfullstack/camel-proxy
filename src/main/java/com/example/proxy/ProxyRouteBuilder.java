@@ -34,7 +34,7 @@ public class ProxyRouteBuilder extends RouteBuilder {
         from(serverEndpoint).
             to("log:input1").
 //            to("bean:requestProcessor").
-                process(new MyProcess()).
+                process(new StockQuoteRequestProcessor()).
 
                 to("log:input2").
             to(clientEndpoint).

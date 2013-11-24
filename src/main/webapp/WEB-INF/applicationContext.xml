@@ -22,12 +22,27 @@
          serviceClass="net.webservicex.StockQuoteSoap"
          address="http://www.webservicex.net/stockquote.asmx"/>
 
-    <bean id="requestProcessor" class="com.example.proxy.MyProcess"/>
+    <bean id="requestProcessor" class="com.example.proxy.StockQuoteRequestProcessor"/>
+    <bean id="clientStub" class="com.example.proxy.ClientStub"/>
 
     <camelContext id="camel-proxy" xmlns="http://camel.apache.org/schema/spring">
         <routeBuilder ref="proxyBuilder" />
     </camelContext>
 
-    <bean id="proxyBuilder" class="com.example.proxy.ProxyRouteBuilder"/>
+    <!-- default production route using actual rs server and ws client -->
+    <bean id="proxyBuilder" class="com.example.proxy.ProxyRouteBuilder">
+        <constructor-arg type="java.lang.String"><value>cxfrs:bean:rsStockQuoteServer</value></constructor-arg>
+        <constructor-arg type="java.lang.String"><value>cxf:bean:wsStockQuoteClient</value></constructor-arg>
+    </bean>
+
+    <!-- Spring Profiles active with "spring.profiles.active" system property when Tomcat is launched -->
+    <beans profile="iso">
+        <!-- iso route using actual rs server and stub ws client -->
+        <bean id="proxyBuilder" class="com.example.proxy.ProxyRouteBuilder">
+            <constructor-arg type="java.lang.String"><value>cxfrs:bean:rsStockQuoteServer</value></constructor-arg>
+            <constructor-arg type="java.lang.String"><value>bean:clientStub</value></constructor-arg>
+        </bean>
+
+    </beans>
 
 </beans>
