@@ -18,39 +18,11 @@
         </cxf:providers>
     </cxf:rsServer>
 
-    <cxf:cxfEndpoint id="stockquote"
-        address="http://www.webservicex.net/stockquote.asmx"
-        wsdlURL="WEB-INF/wsdl/stockquote.wsdl"
-        serviceClass="net.webservicex.StockQuoteSoap"
-        endpointName="s:StockQuoteSoap"
-        serviceName="s:StockQuote"
-        xmlns:s="http://www.webserviceX.NET/">
-        <cxf:properties>
-            <entry key="dataFormat" value="POJO"/>
-        </cxf:properties>
-    </cxf:cxfEndpoint>
-
     <cxf:cxfEndpoint id="wsStockQuoteClient"
          serviceClass="net.webservicex.StockQuoteSoap"
          address="http://www.webservicex.net/stockquote.asmx"/>
 
-    <!--serviceClass="net.webservicex.GetQuote"-->
-
     <bean id="requestProcessor" class="com.example.proxy.MyProcess"/>
-
-
-    <!--N.B. file:../temp is relative to Tomcat home directory-->
-    <!--<camelContext xmlns="http://camel.apache.org/schema/spring" trace="false">-->
-        <!--<route id="my_Sample_Camel_Route_with_CXF">-->
-            <!--<from uri="file:../temp?noop=true"/>-->
-            <!--<log loggingLevel="INFO" message="&gt;&gt;&gt; ${body}"/>-->
-            <!--&lt;!&ndash;<to uri="bean:myconvertor"/>&ndash;&gt;-->
-            <!--<process ref="myprocess"/>-->
-            <!--<log loggingLevel="INFO" message="&gt;&gt;&gt; ${body}"/>-->
-            <!--<to uri="cxf:bean:stockquote"/>-->
-            <!--<log loggingLevel="INFO" message="&gt;&gt;&gt; ${body}"/>-->
-        <!--</route>-->
-    <!--</camelContext>-->
 
     <camelContext id="camel-proxy" xmlns="http://camel.apache.org/schema/spring">
         <routeBuilder ref="proxyBuilder" />

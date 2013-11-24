@@ -25,6 +25,8 @@ dependencies {
 
     compile "com.fasterxml.jackson.core:jackson-core:2.2.3"
     compile "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.2.3"
+
+    compile group: 'org.apache.camel', version: '2.12.1', name: 'camel-test'
 }
 
 task wsdl2Java() {

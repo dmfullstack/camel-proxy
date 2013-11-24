@@ -9,6 +9,7 @@ Version: 0.2
 ------------
 Get POJO SOAP request working. Wire up a rest server endpoint. Start
 refactoring to use Java DSL route and Spring endpoint configuration.
+Start some unit testing.
 
 
 Version: 0.1
