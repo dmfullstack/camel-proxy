@@ -5,7 +5,7 @@ import org.apache.camel.builder.RouteBuilder;
 /**
  * Build a proxy route between a rsServer and wsClient.
  */
-public class ProxyRouteBuilder extends RouteBuilder {
+public class StockQuoteProxyRouteBuilder extends RouteBuilder {
 
     public static final String SERVER_ENDPOINT = "cxfrs:bean:rsStockQuoteServer";
     public static final String CLIENT_ENDPOINT = "cxf:bean:wsStockQuoteClient";
@@ -13,7 +13,7 @@ public class ProxyRouteBuilder extends RouteBuilder {
     private String serverEndpoint;
     private String clientEndpoint;
 
-    public ProxyRouteBuilder() {
+    public StockQuoteProxyRouteBuilder() {
        this(SERVER_ENDPOINT, CLIENT_ENDPOINT);
     }
 
@@ -23,7 +23,7 @@ public class ProxyRouteBuilder extends RouteBuilder {
      * @param serverEndpoint
      * @param clientEndpoint
      */
-    public ProxyRouteBuilder(String serverEndpoint, String clientEndpoint) {
+    public StockQuoteProxyRouteBuilder(String serverEndpoint, String clientEndpoint) {
         super();
         this.serverEndpoint = serverEndpoint;
         this.clientEndpoint = clientEndpoint;

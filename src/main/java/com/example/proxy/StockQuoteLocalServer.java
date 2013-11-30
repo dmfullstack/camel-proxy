@@ -14,7 +14,7 @@ import javax.ws.rs.core.MediaType;
  */
 @Service("localService")
 @Produces({ MediaType.APPLICATION_JSON })
-public class LocalService {
+public class StockQuoteLocalServer {
 
     @Path("symbol/{symbol}")
     @GET

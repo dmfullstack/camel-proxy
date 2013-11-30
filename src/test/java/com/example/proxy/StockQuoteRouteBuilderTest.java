@@ -9,16 +9,16 @@ import org.apache.camel.impl.ProcessorEndpoint;
 import org.apache.camel.test.junit4.CamelTestSupport;
 import org.junit.Test;
 
-public class StockQuoteProxyTest extends CamelTestSupport {
+public class StockQuoteRouteBuilderTest extends CamelTestSupport {
 
     @Override
     public RouteBuilder[] createRouteBuilders() throws Exception {
         // stub producer endpoint, otherwise configured in XML
-        Endpoint stub = new ProcessorEndpoint("bean:clientStub", context(), new ClientStub());
+        Endpoint stub = new ProcessorEndpoint("bean:clientStub", context(), new StockQuoteClientStub());
         context().addEndpoint("bean:clientStub", stub);
         return new RouteBuilder[] {
-            new ProxyRouteBuilder("direct:server", "mock:client"),
-            new ProxyRouteBuilder("direct:serverStub", "bean:clientStub")
+            new StockQuoteProxyRouteBuilder("direct:server", "mock:client"),
+            new StockQuoteProxyRouteBuilder("direct:serverStub", "bean:clientStub")
         };
     }
 

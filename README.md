@@ -5,6 +5,10 @@ get response from a SOAP endpoint
 
 demonstrate client endpoint and marshalling, SOAP/JSON conversion
 
+Version 0.3
+-----------
+Added missing StockQuote WSDL generated stub code. Renamed some classes more uniformly.
+
 Version: 0.2
 ------------
 Get POJO SOAP request working. Wire up a rest server endpoint. Start

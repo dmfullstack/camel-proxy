@@ -12,7 +12,7 @@
     <bean id="jsonProvider" class="com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider"/>
 
 
-    <cxf:rsServer id="rsStockQuoteServer" address="/" serviceClass="com.example.proxy.LocalService">
+    <cxf:rsServer id="rsStockQuoteServer" address="/" serviceClass="com.example.proxy.StockQuoteLocalServer">
         <cxf:providers>
             <ref bean="jsonProvider"/>
         </cxf:providers>
@@ -23,22 +23,23 @@
          address="http://www.webservicex.net/stockquote.asmx"/>
 
     <bean id="requestProcessor" class="com.example.proxy.StockQuoteRequestProcessor"/>
-    <bean id="clientStub" class="com.example.proxy.ClientStub"/>
+    <bean id="clientStub" class="com.example.proxy.StockQuoteClientStub"/>
 
     <camelContext id="camel-proxy" xmlns="http://camel.apache.org/schema/spring">
         <routeBuilder ref="proxyBuilder" />
     </camelContext>
 
     <!-- default production route using actual rs server and ws client -->
-    <bean id="proxyBuilder" class="com.example.proxy.ProxyRouteBuilder">
+    <bean id="proxyBuilder" class="com.example.proxy.StockQuoteProxyRouteBuilder">
         <constructor-arg type="java.lang.String"><value>cxfrs:bean:rsStockQuoteServer</value></constructor-arg>
         <constructor-arg type="java.lang.String"><value>cxf:bean:wsStockQuoteClient</value></constructor-arg>
     </bean>
 
     <!-- Spring Profiles active with "spring.profiles.active" system property when Tomcat is launched -->
+    <!-- TODO: how to avoid the duplicated element id 'proxyBuilder' -->
     <beans profile="iso">
         <!-- iso route using actual rs server and stub ws client -->
-        <bean id="proxyBuilder" class="com.example.proxy.ProxyRouteBuilder">
+        <bean id="proxyBuilder" class="com.example.proxy.StockQuoteProxyRouteBuilder">
             <constructor-arg type="java.lang.String"><value>cxfrs:bean:rsStockQuoteServer</value></constructor-arg>
             <constructor-arg type="java.lang.String"><value>bean:clientStub</value></constructor-arg>
         </bean>
