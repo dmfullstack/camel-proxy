@@ -1,3 +1,15 @@
+Version 0.4
+-----------
+Point the client at a non-existent domain name.
+Then the server should respond 503 UnknownHostException
+
+Add a DNS entry to a bugus IP
+Then the server should respond 503 ConnectException
+
+Disconnect from internet
+Then the server should respond 503 ConnectException
+
+
 Version 0.2
 -----------
 There are now unit and component tests, but functional tests are still manual.

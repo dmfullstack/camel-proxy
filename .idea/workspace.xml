@@ -1,35 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a864dae2-8e7f-46b0-a895-fd35d12afe3b" name="Default" comment="Add Spring skeleton.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="C:\Users\frankw\IdeaProjects\camel-proxy\src\main\java\com\example\proxy\ClientStub.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteClientStub.java" />
-      <change type="MOVED" beforePath="C:\Users\frankw\IdeaProjects\camel-proxy\src\main\java\com\example\proxy\LocalService.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteLocalServer.java" />
-      <change type="MOVED" beforePath="C:\Users\frankw\IdeaProjects\camel-proxy\src\main\java\com\example\proxy\ProxyRouteBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteProxyRouteBuilder.java" />
-      <change type="MOVED" beforePath="C:\Users\frankw\IdeaProjects\camel-proxy\src\test\java\com\example\proxy\StockQuoteProxyTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/example/proxy/StockQuoteRouteBuilderTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/camel-proxy.iml" afterPath="$PROJECT_DIR$/camel-proxy.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/camel_proxy_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/camel_proxy_war_exploded.xml" />
+    <list default="true" id="a864dae2-8e7f-46b0-a895-fd35d12afe3b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteClientStub.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteClientStub.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteProxyRouteBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteProxyRouteBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/example/proxy/manual.txt" afterPath="$PROJECT_DIR$/src/test/java/com/example/proxy/manual.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="camel-proxy.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/manual.txt" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1384743793341" ignored="false" />
+    <file path="/manual.txt" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1385949618742" ignored="false" />
     <file path="/build.gradle" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1384740624257" ignored="false" />
-    <file path="/Dummy.txt" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1385783540639" ignored="false" />
+    <file path="/Dummy.txt" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1385838291037" ignored="false" />
     <file path="/README.md" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1385787730244" ignored="false" />
     <file path="/a.dummy" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1385785240580" ignored="false" />
     <file path="/spring-config.xml" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1384628479686" ignored="false" />
-    <file path="/applicationContext.xml" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1385787650095" ignored="false" />
+    <file path="/applicationContext.xml" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1385862329218" ignored="false" />
     <file path="/Feature.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1384635116447" ignored="false" />
     <file path="/Service.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1384636110031" ignored="false" />
-    <file path="/fragment.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1384658036111" ignored="false" />
+    <file path="/fragment.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1385838291037" ignored="false" />
     <file path="/MyBean.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1384666607731" ignored="false" />
     <file path="/message1.xml" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1384740839425" ignored="false" />
     <file path="/ClientStub.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1385787290425" ignored="false" />
     <file path="/LocalService.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1385787410667" ignored="false" />
     <file path="/ProxyRouteBuilder.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1385787373382" ignored="false" />
     <file path="/StockQuoteProxyTest.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1385787509058" ignored="false" />
+    <file path="/StockQuoteClientStub.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1385840933129" ignored="false" />
+    <file path="/StockQuoteProxyRouteBuilder.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1385921200338" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,91 +91,7 @@
     <favorites_list name="camel-proxy" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="manual.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/proxy/manual.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="25" selection-start="297" selection-end="309" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="48" selection-start="682" selection-end="682" vertical-scroll-proportion="-12.24">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="87" selection-start="292" selection-end="292" vertical-scroll-proportion="0.26153848">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StockQuoteRouteBuilderTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/proxy/StockQuoteRouteBuilderTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="35" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="72" selection-start="2281" selection-end="2281" vertical-scroll-proportion="-11.68">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StockQuoteProxyRouteBuilder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteProxyRouteBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="23" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StockQuoteClientStub.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteClientStub.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="23" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StockQuoteLocalServer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteLocalServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="34" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -294,18 +207,18 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/resources/message1.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/example/proxy/manual.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/proxy/ClientStub.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteClientStub.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/proxy/LocalService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/proxy/ProxyRouteBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteProxyRouteBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteLocalService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteLocalServer.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/proxy/StockQuoteProxyTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/proxy/StockQuoteRouteBuilderTest.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteClientStub.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteProxyRouteBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/proxy/manual.txt" />
       </list>
     </option>
   </component>
@@ -321,6 +234,28 @@
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>UI Form Problems</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -517,21 +452,41 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="289" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="289" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="289" />
     <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="289" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="964" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="964" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="290" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="288" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="FullScreen" value="false" />
-    <property name="gradle.tool.window.active" value="Project" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="options.lastSelected" value="reference.idesettings.quicklists" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="gradle.tool.window.active" value="Project" />
+    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
@@ -544,7 +499,7 @@
   <component name="RestClientSettings">
     <option name="LAST_HOST" value="http://localhost:8080" />
   </component>
-  <component name="RunManager" selected="JUnit.StockQuoteRouteBuilderTest">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 7.01">
     <configuration default="false" name="StockQuoteRouteBuilderTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -554,14 +509,14 @@
       </extension>
       <module name="camel-proxy" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="com.example.proxy" />
       <option name="MAIN_CLASS_NAME" value="com.example.proxy.StockQuoteRouteBuilderTest" />
-      <option name="METHOD_NAME" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -745,6 +700,11 @@
           <option name="VM_PARAMETERS" value="" />
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
+        <EnvironmentVariables>
+          <option name="NAME" value="spring.profiles.active" />
+          <option name="VALUE" value="production" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
@@ -753,8 +713,8 @@
       </method>
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.01" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.StockQuoteRouteBuilderTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.StockQuoteRouteBuilderTest" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.01" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -806,7 +766,11 @@
       <created>1384789393267</created>
       <updated>1384789393267</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update to version 0.3 - minor fixes.">
+      <created>1385787781054</created>
+      <updated>1385787781054</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -814,7 +778,7 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32657418" sideWeight="0.7045708" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32657418" sideWeight="0.64214045" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -834,8 +798,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23959444" sideWeight="0.7045708" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2954292" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23959444" sideWeight="0.64214045" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35785952" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="soapUI Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -886,7 +850,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add IDEA metadata files, except workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update to version 0.3 - minor fixes." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -903,6 +867,7 @@
     <MESSAGE value="Iinitial commit with gradle skeleton." />
     <MESSAGE value="Elaboration to access a public SOAP service with raw SOAP request and response." />
     <MESSAGE value="Add IDEA metadata files, except workspace.xml" />
+    <MESSAGE value="Update to version 0.3 - minor fixes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -975,13 +940,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/proxy/manual.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="25" selection-start="297" selection-end="309" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
         <state />
@@ -998,23 +956,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteClientStub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="23" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteProxyRouteBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="23" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteLocalServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="34" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
+        <state line="16" column="34" selection-start="366" selection-end="366" vertical-scroll-proportion="0.31228474">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1028,16 +972,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="72" selection-start="2281" selection-end="2281" vertical-scroll-proportion="-11.68">
+        <state line="9" column="87" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteClientStub.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="87" selection-start="292" selection-end="292" vertical-scroll-proportion="0.26153848">
+        <state line="17" column="34" selection-start="920" selection-end="993" vertical-scroll-proportion="0.21794872">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteProxyRouteBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="31" selection-start="2232" selection-end="2232" vertical-scroll-proportion="0.8811189">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1471#2013#0" expanded="true" />
+            <element signature="e#1998#1999#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="29" selection-start="1364" selection-end="1364" vertical-scroll-proportion="0.3469388">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/proxy/manual.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="52" selection-start="288" selection-end="288" vertical-scroll-proportion="0.17566016">
           <folding />
         </state>
       </provider>

@@ -1,6 +1,12 @@
 package com.example.proxy;
 
+import org.apache.camel.Exchange;
+import org.apache.camel.Processor;
 import org.apache.camel.builder.RouteBuilder;
+
+import javax.ws.rs.core.Response;
+import java.io.IOException;
+import java.net.UnknownHostException;
 
 /**
  * Build a proxy route between a rsServer and wsClient.
@@ -31,12 +37,27 @@ public class StockQuoteProxyRouteBuilder extends RouteBuilder {
 
     @Override
     public void configure() throws Exception {
+        // convert client exceptions to server exceptions, wrapped in 503
+        // but this ought to be 502 or 504, since we're a gateway
+        // 503 should be from the remote service
+        // superclass of UnknownHostException, NoRouteToHostException, etc
+        onException(IOException.class).
+            handled(true).
+            process(new Processor() {
+                @Override
+                public void process(Exchange exchange) {
+                    // need to ask for Exception in general, even for EXCEPTION_CAUGHT
+                    Exception exception = exchange.getProperty(Exchange.EXCEPTION_CAUGHT, Exception.class);
+                    String message = exception.getCause().getMessage();
+                    Response response = Response.status(503).entity(message).build();
+                    exchange.getOut().setBody(response);
+                }
+            });
+
         from(serverEndpoint).
             to("log:input1").
-//            to("bean:requestProcessor").
-                process(new StockQuoteRequestProcessor()).
-
-                to("log:input2").
+            process(new StockQuoteRequestProcessor()).
+            to("log:input2").
             to(clientEndpoint).
             to("log:input3");
     }
