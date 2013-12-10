@@ -2,23 +2,184 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a864dae2-8e7f-46b0-a895-fd35d12afe3b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/aopalliance_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/aopalliance_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/asm_3_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/asm_3_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/base_0_2_0_b6726.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/camel_core_2_12_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/camel_core_2_12_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/camel_cxf_2_12_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/camel_cxf_2_12_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/camel_cxf_transport_2_12_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/camel_cxf_transport_2_12_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/camel_dozer_2_12_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/camel_spring_2_12_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/camel_spring_2_12_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/camel_test_2_12_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/camel_test_2_12_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/cglib_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/cglib_nodep_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/commons_beanutils_1_8_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/commons_codec_1_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/commons_collections_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_collections_3_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/commons_httpclient_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/commons_io_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/commons_lang3_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/commons_lang_2_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_logging_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/commons_logging_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/configuration_0_2_0_b6726.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/core_0_2_0_b6726.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/cxf_api_2_7_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/cxf_api_2_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/cxf_rt_bindings_soap_2_7_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/cxf_rt_bindings_soap_2_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/cxf_rt_bindings_xml_2_7_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/cxf_rt_bindings_xml_2_7_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/cxf_rt_core_2_7_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/cxf_rt_core_2_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/cxf_rt_databinding_jaxb_2_7_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/cxf_rt_databinding_jaxb_2_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/cxf_rt_features_clustering_2_7_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/cxf_rt_features_clustering_2_7_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/cxf_rt_frontend_jaxrs_2_7_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/cxf_rt_frontend_jaxrs_2_7_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/cxf_rt_frontend_jaxws_2_7_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/cxf_rt_frontend_jaxws_2_7_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/cxf_rt_frontend_simple_2_7_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/cxf_rt_frontend_simple_2_7_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/cxf_rt_rs_security_cors_2_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/cxf_rt_transports_http_2_7_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/cxf_rt_transports_http_2_7_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/cxf_rt_ws_addr_2_7_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/cxf_rt_ws_addr_2_7_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/cxf_rt_ws_policy_2_7_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/cxf_rt_ws_policy_2_7_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/cxf_tools_common_2_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/cxf_tools_validator_2_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/cxf_tools_wsdlto_core_2_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/cxf_tools_wsdlto_databinding_jaxb_2_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/cxf_tools_wsdlto_frontend_jaxws_2_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/dom4j_1_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/dozer_5_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/functional-tests/functional-tests.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/geronimo_javamail_1_4_spec_1_7_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/geronimo_javamail_1_4_spec_1_7_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/gradle.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/guava_13_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/hamcrest_all_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/healthchecks_0_2_0_b6726.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/httpclient_4_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/httpcore_4_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jackson_annotations_2_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/jackson_annotations_2_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jackson_core_2_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/jackson_core_2_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jackson_databind_2_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/jackson_databind_2_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jackson_jaxrs_base_2_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/jackson_jaxrs_base_2_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jackson_jaxrs_json_provider_2_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/jackson_jaxrs_json_provider_2_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jackson_module_jaxb_annotations_2_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/jackson_module_jaxb_annotations_2_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/jackson_module_scala_2_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/javassist_3_12_1_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/javax_servlet_api_3_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/javax_ws_rs_api_2_0_m10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/javax_ws_rs_api_2_0_m10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jaxb_impl_2_2_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/jaxb_impl_2_2_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jaxb_xjc_2_1_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/jcl_over_slf4j_1_6_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/joda_time_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/junit_4_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/junit_dep_4_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/log4j_1_2_17.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/log4j_1_2_17.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/logback_classic_1_0_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/logback_core_1_0_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/logging_0_2_0_b6726.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/lombok_0_11_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/mockito_core_1_8_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/neethi_3_0_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/neethi_3_0_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/objenesis_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/paranamer_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/reflections_0_9_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/registration_0_2_0_b6726.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/scala_library_2_9_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/scalabeans_0_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/servlet_0_2_0_b6726.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/servlet_api_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/slf4j_api_1_7_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/slf4j_api_1_7_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/slf4j_log4j12_1_6_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/slf4j_log4j12_1_7_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/spring_0_2_0_b6726.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/spring_aop_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/spring_aop_3_2_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/spring_beans_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/spring_beans_3_2_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/spring_context_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/spring_context_3_2_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/spring_core_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/spring_core_3_2_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/spring_expression_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/spring_expression_3_2_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/spring_tx_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/spring_tx_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/spring_web_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/spring_web_3_2_5_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/spring_webmvc_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/stax2_api_3_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/stax2_api_3_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/swagger_annotations_2_9_1_1_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/swagger_core_2_9_1_1_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/swagger_springmvc_0_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/velocity_1_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/pricing-service/webpos-services-webpos-services.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/webpos-services.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/woodstox_core_asl_4_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/woodstox_core_asl_4_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/wsdl4j_1_6_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/wsdl4j_1_6_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/xml_apis_1_0_b2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/xml_resolver_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/xml_resolver_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/xmlschema_core_2_0_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpos-services/.idea/libraries/xmlschema_core_2_0_3.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteClientStub.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteClientStub.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteProxyRouteBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteProxyRouteBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/example/proxy/manual.txt" afterPath="$PROJECT_DIR$/src/test/java/com/example/proxy/manual.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/camel-proxy.iml" afterPath="$PROJECT_DIR$/camel-proxy.iml" />
     </list>
     <ignored path="camel-proxy.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/manual.txt" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1385949618742" ignored="false" />
-    <file path="/build.gradle" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1384740624257" ignored="false" />
-    <file path="/Dummy.txt" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1385838291037" ignored="false" />
+    <file path="/build.gradle" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386441733498" ignored="false" />
+    <file path="/Dummy.txt" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386544832106" ignored="false" />
     <file path="/README.md" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1385787730244" ignored="false" />
-    <file path="/a.dummy" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1385785240580" ignored="false" />
+    <file path="/a.dummy" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386631600208" ignored="false" />
     <file path="/spring-config.xml" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1384628479686" ignored="false" />
-    <file path="/applicationContext.xml" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1385862329218" ignored="false" />
+    <file path="/applicationContext.xml" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386025490111" ignored="false" />
     <file path="/Feature.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1384635116447" ignored="false" />
     <file path="/Service.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1384636110031" ignored="false" />
-    <file path="/fragment.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1385838291037" ignored="false" />
+    <file path="/fragment.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386285505373" ignored="false" />
     <file path="/MyBean.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1384666607731" ignored="false" />
     <file path="/message1.xml" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1384740839425" ignored="false" />
     <file path="/ClientStub.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1385787290425" ignored="false" />
@@ -27,6 +188,49 @@
     <file path="/StockQuoteProxyTest.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1385787509058" ignored="false" />
     <file path="/StockQuoteClientStub.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1385840933129" ignored="false" />
     <file path="/StockQuoteProxyRouteBuilder.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1385921200338" ignored="false" />
+    <file path="$PROJECT_DIR$/../webpos-services/pricing-service/src/main/java/com/gap/selling/stores/service/tender/TenderRouteBuilder.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386541947315" ignored="false" />
+    <file path="$PROJECT_DIR$/../webpos-services/functional-tests/features/ccauth.feature" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386092263765" ignored="false" />
+    <file path="$PROJECT_DIR$/../webpos-services/functional-tests/features/step_definitions/ccauth.rb" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386098704159" ignored="false" />
+    <file path="$PROJECT_DIR$/../webpos-services/pricing-service/src/main/java/com/gap/selling/stores/service/tender/TenderServiceClientStub.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386537815357" ignored="false" />
+    <file path="/TenderServiceClientStub.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386536811707" ignored="false" />
+    <file path="$PROJECT_DIR$/../webpos-services/pricing-service/src/test/java/com/gap/selling/stores/service/tender/TenderRouteBuilderTest.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386539072700" ignored="false" />
+    <file path="$PROJECT_DIR$/../webpos-services/pricing-service/src/main/java/com/gap/selling/stores/service/common/route/AbstractRouteBuilder.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386542948232" ignored="false" />
+    <file path="/TenderRouteBuilder.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386541900160" ignored="false" />
+    <file path="/PricingRouteBuilder.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386112223865" ignored="false" />
+    <file path="$PROJECT_DIR$/../webpos-services/pricing-service/src/main/java/com/gap/selling/stores/service/pricing/PricingRouteBuilder.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386542261509" ignored="false" />
+    <file path="$PROJECT_DIR$/../webpos-services/functional-tests/build.gradle" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386284020059" ignored="false" />
+    <file path="$PROJECT_DIR$/../webpos-services/settings.gradle" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386095315487" ignored="false" />
+    <file path="$PROJECT_DIR$/../webpos-services/functional-tests/src/test/resources/features/ccauth.feature" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386544706015" ignored="false" />
+    <file path="/TenderRouteBuilderTest.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386539010023" ignored="false" />
+    <file path="$PROJECT_DIR$/../webpos-services/pricing-service/src/main/resources/mappings/tender/authorization-request-mapping.xml" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386114372895" ignored="false" />
+    <file path="/authorization-request-mapping.xml" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386099433836" ignored="false" />
+    <file path="$PROJECT_DIR$/../webpos-services/pricing-service/src/test/java/com/gap/selling/stores/bean/mapping/tender/AuthorizationRequestMappingTest.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386114375052" ignored="false" />
+    <file path="/AuthorizationRequestMappingTest.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386099695770" ignored="false" />
+    <file path="$PROJECT_DIR$/../webpos-services/functional-tests/src/test/java/com/gap/cucumber/stepdefs/CreditAuthStepdefs.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386544558347" ignored="false" />
+    <file path="/ccauth.feature" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386544706015" ignored="false" />
+    <file path="$PROJECT_DIR$/../webpos-services/functional-tests/src/main/java/com/gap/cucumber/util/HTTPUtil.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386265616711" ignored="false" />
+    <file path="/HTTPUtil.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386192318986" ignored="false" />
+    <file path="$PROJECT_DIR$/../webpos-services/buildscripts/webproject.gradle" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386266929770" ignored="false" />
+    <file path="/webproject.gradle" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386266929770" ignored="false" />
+    <file path="$PROJECT_DIR$/../webpos-services/pricing-service/build.gradle" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386631087087" ignored="false" />
+    <file path="$PROJECT_DIR$/../webpos-services/pricing-service/src/main/resources/mappings/sku-product-mapping.xml" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386301420521" ignored="false" />
+    <file path="$PROJECT_DIR$/../webpos-services/pricing-service/src/main/resources/stores-salesinvoice-mapper.xml" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386301839588" ignored="false" />
+    <file path="$PROJECT_DIR$/../webpos-services/pricing-service/src/main/java/com/gap/selling/stores/service/tender/TenderServiceLocalResource.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386356883273" ignored="false" />
+    <file path="/TenderServiceLocalResource.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386356882201" ignored="false" />
+    <file path="$PROJECT_DIR$/../webpos-services/build.gradle" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386528359877" ignored="false" />
+    <file path="/WebResponseErrorProcessor.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386529469387" ignored="false" />
+    <file path="$PROJECT_DIR$/../webpos-services/pricing-service/src/main/java/com/gap/selling/stores/service/common/route/WebResponseErrorProcessor.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386543104587" ignored="false" />
+    <file path="$PROJECT_DIR$/../webpos-services/logs/snap-services/localhost-8080-snap-services.log" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386540339515" ignored="false" />
+    <file path="$PROJECT_DIR$/../webpos-services/pricing-service/src/main/resources/spring/applicationConfig-TenderService.xml" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386535297283" ignored="false" />
+    <file path="/applicationConfig-TenderService.xml" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386534152080" ignored="false" />
+    <file path="/AbstractRouteBuilder.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386542948231" ignored="false" />
+    <file path="$PROJECT_DIR$/../webpos-services/pricing-service/src/main/java/com/gap/selling/stores/service/mpc/MPCRouteBuilder.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386542181936" ignored="false" />
+    <file path="$PROJECT_DIR$/../webpos-services/pricing-service/src/main/java/com/gap/selling/stores/service/transaction/TransactionRouteBuilder.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386542203274" ignored="false" />
+    <file path="$PROJECT_DIR$/../webpos-services/pricing-service/src/test/java/com/gap/selling/stores/service/common/route/WebResponseErrorProcessorTest.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386543085010" ignored="false" />
+    <file path="/WebResponseErrorProcessorTest.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386543023335" ignored="false" />
+    <file path="/CreditAuthStepdefs.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386544548546" ignored="false" />
+    <file path="$PROJECT_DIR$/../webpos-services/pricing-service/src/main/java/com/gap/selling/stores/service/pricing/ItemServiceStub.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386561809144" ignored="false" />
+    <file path="/ItemServiceStub.java" changelist="a864dae2-8e7f-46b0-a895-fd35d12afe3b" time="1386561755907" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +250,23 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteProxyRouteBuilder.java" line="49" class="com.example.proxy.StockQuoteProxyRouteBuilder$1" package="com.example.proxy">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -91,7 +312,17 @@
     <favorites_list name="camel-proxy" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="29" selection-start="1364" selection-end="1364" vertical-scroll-proportion="0.7808219">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -130,7 +361,7 @@
           <option name="name" value="check" />
         </GradleTaskDescriptor>
         <GradleTaskDescriptor>
-          <option name="description" value="Assembles the main classes." />
+          <option name="description" value="Assembles classes 'main'." />
           <option name="name" value="classes" />
         </GradleTaskDescriptor>
         <GradleTaskDescriptor>
@@ -138,11 +369,11 @@
           <option name="name" value="clean" />
         </GradleTaskDescriptor>
         <GradleTaskDescriptor>
-          <option name="description" value="Compiles the main Java source." />
+          <option name="description" value="Compiles source set 'main:java'." />
           <option name="name" value="compileJava" />
         </GradleTaskDescriptor>
         <GradleTaskDescriptor>
-          <option name="description" value="Compiles the test Java source." />
+          <option name="description" value="Compiles source set 'test:java'." />
           <option name="name" value="compileTestJava" />
         </GradleTaskDescriptor>
         <GradleTaskDescriptor>
@@ -169,11 +400,11 @@
           <option name="name" value="jettyStop" />
         </GradleTaskDescriptor>
         <GradleTaskDescriptor>
-          <option name="description" value="Processes the main resources." />
+          <option name="description" value="Processes source set 'main:resources'." />
           <option name="name" value="processResources" />
         </GradleTaskDescriptor>
         <GradleTaskDescriptor>
-          <option name="description" value="Processes the test resources." />
+          <option name="description" value="Processes source set 'test:resources'." />
           <option name="name" value="processTestResources" />
         </GradleTaskDescriptor>
         <GradleTaskDescriptor>
@@ -181,7 +412,7 @@
           <option name="name" value="test" />
         </GradleTaskDescriptor>
         <GradleTaskDescriptor>
-          <option name="description" value="Assembles the test classes." />
+          <option name="description" value="Assembles classes 'test'." />
           <option name="name" value="testClasses" />
         </GradleTaskDescriptor>
         <GradleTaskDescriptor>
@@ -196,7 +427,8 @@
     <option name="expandStates">
       <map>
         <entry key="camel-proxy" value="true" />
-        <entry key="camel-proxy/camel-proxy" value="false" />
+        <entry key="camel-proxy/camel-proxy" value="true" />
+        <entry key="dependencies/camel-proxy/camel-proxy" value="true" />
       </map>
     </option>
   </component>
@@ -215,10 +447,10 @@
         <option value="$PROJECT_DIR$/src/test/java/com/example/proxy/StockQuoteProxyTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/proxy/StockQuoteRouteBuilderTest.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteClientStub.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteProxyRouteBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/proxy/manual.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteClientStub.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
       </list>
     </option>
   </component>
@@ -230,10 +462,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="3" />
+    <option name="y" value="22" />
+    <option name="width" value="1437" />
+    <option name="height" value="790" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -311,144 +543,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proxy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="camel-proxy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="camel-proxy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="camel-proxy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="camel-proxy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="camel-proxy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="camel-proxy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="camel-proxy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="camel-proxy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proxy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="camel-proxy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="camel-proxy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generated" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webservicex" />
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -462,7 +564,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="289" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="964" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="964" />
@@ -713,8 +815,8 @@
       </method>
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.StockQuoteRouteBuilderTest" />
-      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.01" />
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.01" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.StockQuoteRouteBuilderTest" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -742,6 +844,7 @@
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <option name="FORCE_UPDATE" value="false" />
     <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="true">$USER_HOME$/.subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="TaskManager">
@@ -774,36 +877,36 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="3" y="22" width="1437" height="790" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32657418" sideWeight="0.64214045" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19051042" sideWeight="0.5716418" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27759197" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4283582" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985073" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.41025642" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.2865106" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23959444" sideWeight="0.64214045" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35785952" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32494608" sideWeight="0.6432836" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35671642" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="soapUI Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="soapUI Navigator" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -877,92 +980,25 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/proxy/manual.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="66" selection-start="749" selection-end="749" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="2" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="398" selection-end="398" vertical-scroll-proportion="0.4038877" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/stockquote.wsdl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="98" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="48" selection-start="682" selection-end="682" vertical-scroll-proportion="-12.24">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteLocalServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="34" selection-start="366" selection-end="366" vertical-scroll-proportion="0.31228474">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/proxy/StockQuoteRouteBuilderTest.java">
@@ -974,39 +1010,97 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="87" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="9" column="87" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteClientStub.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="34" selection-start="920" selection-end="993" vertical-scroll-proportion="0.21794872">
+        <state line="13" column="0" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteProxyRouteBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteLocalServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="31" selection-start="2232" selection-end="2232" vertical-scroll-proportion="0.8811189">
+        <state line="20" column="26" selection-start="426" selection-end="434" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1471#2013#0" expanded="true" />
-            <element signature="e#1998#1999#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/wsdl/stockquote.wsdl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="29" selection-start="1364" selection-end="1364" vertical-scroll-proportion="0.3469388">
+        <state line="64" column="35" selection-start="3552" selection-end="3555" vertical-scroll-proportion="-36.923077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/generated/net/webservicex/StockQuote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="13" selection-start="551" selection-end="551" vertical-scroll-proportion="-1.9230769">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/generated/net/webservicex/GetQuote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="13" selection-start="876" selection-end="876" vertical-scroll-proportion="0.23325062">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="18" selection-start="127" selection-end="127" vertical-scroll-proportion="0.29776675">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/proxy/manual.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="52" selection-start="288" selection-end="288" vertical-scroll-proportion="0.17566016">
+        <state line="9" column="52" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteProxyRouteBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="19" selection-start="1424" selection-end="1451" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/proxy/StockQuoteRequestProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/generated/net/webservicex/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/generated/net/webservicex/StockQuoteSoap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="26" selection-end="523" vertical-scroll-proportion="0.07692308">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="29" selection-start="1364" selection-end="1364" vertical-scroll-proportion="0.7808219">
           <folding />
         </state>
       </provider>
@@ -1042,6 +1136,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>bundler (v1.3.5, RVM: ruby-1.9.3-p194 [global]) [gem]</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1070,7 +1165,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1078,7 +1172,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>CXF Runtime</last-edited>
+          <last-edited>aopalliance-1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
